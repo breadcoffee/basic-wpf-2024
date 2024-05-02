@@ -35,6 +35,7 @@ IoT 개발자 WPF 학습리포지토리
     1. 데이터바인딩 : 바인딩 키워드로 코드와 분리
     2. 옵저버패턴 : 값이 변경된 사실을 사용자에게 공지(OnPropertyChanged 이벤트)
     3. 디자인리소스 : 각 컨트롤마다 디자인(X), 리소스로 디자인 공유
+        - 각 화면당 Resources : 자기 화면에만 적용되는 디자인
         - App.xaml Resources : 애플리케이션 전체에 적용되는 디자인
         - 리소스사전 : 공유할 디자인 내용이 많을때 파일로 따로 지정
 
@@ -50,7 +51,7 @@ IoT 개발자 WPF 학습리포지토리
         - View : 화면, 순수 xaml로만 구성
         - ViewModel : 뷰에 대한 메서드, 액션, InotifyPropertyChanged를 구현
 
-        ![MVVM패턴]()
+        ![MVVM패턴](https://raw.githubusercontent.com/breadcoffee/basic-wpf-2024/main/images/wpf001.png)
 
     - 권장 구현방법
         - ViewModel 생성, 알림 속성 구현
@@ -77,4 +78,4 @@ IoT 개발자 WPF 학습리포지토리
 
     - 작업(3명) 분리
         - DB 개발자 : DBMS 테이블 생성, Models에 클래스 작업
-        - Xaml디자이너 : Views 폴더에 있는 xms
+        - Xaml디자이너 : Views 폴더에 있는 xaml 파일을 디자인 작업
