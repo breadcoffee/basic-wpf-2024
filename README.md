@@ -123,9 +123,9 @@ IoT 개발자 WPF 학습리포지토리
     - OpenAPI 두가지 사용
     - MVVM은 시간부족으로 사용안함
     - 좋아하는 영화 즐겨찾기 앱
-    - TMDB OpenAPI 활용
+    - [TMDB](https://www.themoviedb.org/) OpenAPI 활용
         - 회원가입 후 API 신청
-    - Youtube API 활용
+    - [Youtube API](https://console.cloud.google.com/) 활용
         - 새 프로젝트 생성
         - API 및 서비스, 라이브러리 선택
         - YouTube Data API v3 선택, 사용버튼 클릭
