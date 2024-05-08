@@ -111,10 +111,15 @@ IoT 개발자 WPF 학습리포지토리
 - MahApps.Metro (https://mahapps.com/)
     - Metro(Modern UI) 디자인 접목
 
+    ![실행화면](https://raw.githubusercontent.com/breadcoffee/basic-wpf-2024/main/images/wpf003.png)
+
+    ![저장화면](https://raw.githubusercontent.com/breadcoffee/basic-wpf-2024/main/images/wpf004.png)
 
 - Movie API 연동 앱, MovieFinder 2024
     - DB(SQLServer) 연동
-    - MahApps.Metro
+    - MahApps.Metro UI
+    - CefSharp WebBrowser 패키지
+    - Google.Apis 패키지
     - OpenAPI 두가지 사용
     - MVVM은 시간부족으로 사용안함
     - 좋아하는 영화 즐겨찾기 앱
@@ -129,3 +134,17 @@ IoT 개발자 WPF 학습리포지토리
             2. OAuth 동의화면, 기본내용 입력 후 다음
             3. 범위는 저장 후 계속
             4. OAuth Client ID, 앱유형을 데스크톱앱, 이름 입력 후 만들기 클릭
+
+## 6일차
+- MovieFinder 2024
+    - 즐겨찾기 후 다시 선택 막기
+    - 즐겨찾기 삭제 구현
+    - 그리드뷰 영화 더블클릭시 영화소개 팝업
+
+## 7일차
+- MovieFinder 2024 완료
+
+- 데이터포털 API 연동앱 예제
+
+## 8일차
+- WPF 개인프로젝트

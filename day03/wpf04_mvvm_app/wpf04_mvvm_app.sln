@@ -7,7 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex06_caliburn_basic", "ex06
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex07_EmployeeMngApp", "ex07_EmployeeMngApp\ex07_EmployeeMngApp.csproj", "{221782C1-3E25-43CC-A8F8-C822AF6AA90D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex10_MovieFinder2024", "ex10_MovieFinder2024\ex10_MovieFinder2024.csproj", "{C5143E44-D38C-41E1-9137-8B90910221DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex10_MovieFinder2024", "ex10_MovieFinder2024\ex10_MovieFinder2024.csproj", "{C5143E44-D38C-41E1-9137-8B90910221DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{104F35BE-9DE7-4DA6-8F98-43BA15183A8E}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
