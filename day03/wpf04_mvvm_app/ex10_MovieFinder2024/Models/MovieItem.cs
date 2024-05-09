@@ -60,5 +60,7 @@ namespace ex10_MovieFinder2024.Models
                                                               , GETDATE())";
 
         public static readonly string DELETE_QUERY = @"DELETE FROM MovieItem WHERE Id = @Id";
+
+        public static readonly string CHECK_QUERY = @"SELECT COUNT(*) FROM MovieItem WHERE Id = @Id";
     }
 }

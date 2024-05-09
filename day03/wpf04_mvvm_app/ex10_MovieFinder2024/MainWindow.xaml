@@ -15,6 +15,7 @@
         </DataTemplate>
     </mah:MetroWindow.IconTemplate>
     <Grid>
+        <!-- 바깥쪽 그리드 영역 -->
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="2*"/>
             <ColumnDefinition Width="1*"/>
@@ -25,7 +26,6 @@
             <RowDefinition Height="80"/>
             <RowDefinition Height="30"/>
         </Grid.RowDefinitions>
-        <!-- 바깥쪽 그리드 영역 -->
         
         <!-- 맨 위 검색 영역 -->
         <Grid Grid.Row="0" Grid.Column="0">
@@ -59,6 +59,7 @@
         <DataGrid x:Name="GrdResult" Grid.Row="1" Grid.Column="0" Margin="5"
                   IsReadOnly="True" AutoGenerateColumns="False" ItemsSource="{Binding}"
                   Style="{StaticResource MahApps.Styles.DataGrid.Azure}"
+                  MouseDoubleClick="GrdResult_MouseDoubleClick"
                   SelectedCellsChanged="GrdResult_SelectedCellsChanged">
             <DataGrid.Columns>
                 <DataGridTextColumn Binding="{Binding Title}" Header="한글제목" FontWeight="Bold"/>
