@@ -1,7 +1,7 @@
 ﻿using MahApps.Metro.Controls;
 
 
-namespace ex11_Gimhae_FineDust
+namespace Find_Library
 {
     /// <summary>
     /// MapWindow.xaml에 대한 상호 작용 논리
@@ -12,10 +12,9 @@ namespace ex11_Gimhae_FineDust
         {
             InitializeComponent();
         }
-
-        public MapWindow(double coordy, double coordx) : this()
+        public MapWindow(double 위도, double 경도) : this()
         {
-            BrsLoc.Address = $"https://google.com/maps/place/{coordy},{coordx}";
+            BrsLoc.Address = $"https://google.com/maps/place/{위도},{경도}";
         }
     }
 }

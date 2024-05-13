@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex11_Gimhae_FineDust", "ex11_Gimhae_FineDust\ex11_Gimhae_FineDust.csproj", "{CE1D8BC5-FBE5-4008-8AD2-AE24C1B8141E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find_Library", "Find_Library\Find_Library.csproj", "{D05FEDE1-75FA-454C-9050-BCD73376FCE9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CE1D8BC5-FBE5-4008-8AD2-AE24C1B8141E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CE1D8BC5-FBE5-4008-8AD2-AE24C1B8141E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CE1D8BC5-FBE5-4008-8AD2-AE24C1B8141E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CE1D8BC5-FBE5-4008-8AD2-AE24C1B8141E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D05FEDE1-75FA-454C-9050-BCD73376FCE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D05FEDE1-75FA-454C-9050-BCD73376FCE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D05FEDE1-75FA-454C-9050-BCD73376FCE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D05FEDE1-75FA-454C-9050-BCD73376FCE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {21A63729-C4E0-43E5-84EC-441FC875813F}
+		SolutionGuid = {A78E8E93-9F1E-4FDA-9C8C-C8B858275112}
 	EndGlobalSection
 EndGlobal
