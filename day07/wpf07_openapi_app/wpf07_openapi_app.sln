@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex11_Gimhae_FineDust", "ex11_Gimhae_FineDust\ex11_Gimhae_FineDust.csproj", "{CE1D8BC5-FBE5-4008-8AD2-AE24C1B8141E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex11_Gimhae_FineDust", "ex11_Gimhae_FineDust\ex11_Gimhae_FineDust.csproj", "{CE1D8BC5-FBE5-4008-8AD2-AE24C1B8141E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toyproject_Deliverybox_Location", "Toyproject_Deliverybox_Location\Toyproject_Deliverybox_Location.csproj", "{3D5A02B0-5839-4E76-BEA0-267A5645A972}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{CE1D8BC5-FBE5-4008-8AD2-AE24C1B8141E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE1D8BC5-FBE5-4008-8AD2-AE24C1B8141E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE1D8BC5-FBE5-4008-8AD2-AE24C1B8141E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D5A02B0-5839-4E76-BEA0-267A5645A972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D5A02B0-5839-4E76-BEA0-267A5645A972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D5A02B0-5839-4E76-BEA0-267A5645A972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D5A02B0-5839-4E76-BEA0-267A5645A972}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
