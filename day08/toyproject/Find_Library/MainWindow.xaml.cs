@@ -157,7 +157,7 @@ namespace Find_Library
 
         private async void BtnSaveData_Click(object sender, RoutedEventArgs e)
         {
-            if (GrdResult.Items.Count == 0)
+            if (GrdResult.SelectedItems.Count == 0)
             {
                 await this.ShowMessageAsync("저장오류", $"실시간 조회 후 저장하십시오");
                 return;
@@ -170,7 +170,7 @@ namespace Find_Library
                     conn.Open();
 
                     var insRes = 0;
-                    foreach (LibraryLocation item in GrdResult.Items)
+                    foreach (LibraryLocation item in GrdResult.SelectedItems)
                     {
                         SqlCommand cmd = new SqlCommand(Models.LibraryLocation.INSERT_QUERY, conn);
                         cmd.Parameters.AddWithValue("@Id", item.Id);
