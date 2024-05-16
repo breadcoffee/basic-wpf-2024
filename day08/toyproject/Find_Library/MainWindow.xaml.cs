@@ -97,7 +97,7 @@ namespace Find_Library
             {
                 if (CboFlag == true)
                 {
-                    if (item["properties"]["구분"].ToString() == CboReqDate.SelectedItem.ToString())
+                    if (item["properties"]["구분"].ToString() == CboReqDate.SelectedItem.ToString().TrimEnd())
                     {
                         libraryLocations.Add(new LibraryLocation()
                         {
