@@ -166,6 +166,6 @@ https://github.com/breadcoffee/basic-wpf-2024/assets/146920372/fe66a194-30f2-4f4
         - 도서관 구글맵 연동 위치표시
         - 도서관 지역구별 정보검색
 
-    ![실행화면](https://raw.githubusercontent.com/breadcoffee/basic-wpf-2024/main/images/wpf005.png)
+    ![실행화면](https://raw.githubusercontent.com/breadcoffee/basic-wpf-2024/main/images/wpf006.png)
 
-    ![저장화면](https://raw.githubusercontent.com/breadcoffee/basic-wpf-2024/main/images/wpf006.png)
+    ![저장화면](https://raw.githubusercontent.com/breadcoffee/basic-wpf-2024/main/images/wpf007.png)
