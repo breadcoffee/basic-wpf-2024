@@ -150,6 +150,22 @@ https://github.com/breadcoffee/basic-wpf-2024/assets/146920372/fe66a194-30f2-4f4
 
 - 데이터포털 API 연동앱 예제
     - CefSharp 사용시 플랫폼 대상 AnyCPU에서 x64로 변경필수!
+    
+    - 김해시 미세먼지 측정앱
+        - 미세먼지 측정 데이터 조회
+            - 김해시 미세먼지 오픈 API 사용
+        - 미세먼지 DB 저장
+        - 미세먼지 측정 위치표시
 
 ## 8일차
 - WPF 개인프로젝트
+    - 인천시 도서관 위치 및 정보 연동 API 앱
+        - 도서관 조회
+            - 인천시 도서관 오픈 API 사용(https://smart.incheon.go.kr/server/rest/services/Hosted/%EB%8F%84%EC%84%9C%EA%B4%80%EB%B0%8F%EC%84%9C%EC%A0%90%EC%A0%95%EB%B3%B4/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson)
+        - 도서관 DB연동 정보 저장
+        - 도서관 구글맵 연동 위치표시
+        - 도서관 지역구별 정보검색
+
+    ![실행화면](https://raw.githubusercontent.com/breadcoffee/basic-wpf-2024/main/images/wpf005.png)
+
+    ![저장화면](https://raw.githubusercontent.com/breadcoffee/basic-wpf-2024/main/images/wpf006.png)

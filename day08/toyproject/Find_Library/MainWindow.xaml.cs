@@ -212,7 +212,7 @@ namespace Find_Library
             InitComboDateFromDB();
         }
 
-        private async void CboReqDate_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void CboReqDate_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             CboFlag = true;
             //await this.ShowMessageAsync("결과", $"{CboReqDate.SelectedItem}");
