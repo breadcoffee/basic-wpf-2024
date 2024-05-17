@@ -162,10 +162,17 @@ https://github.com/breadcoffee/basic-wpf-2024/assets/146920372/fe66a194-30f2-4f4
     - 인천시 도서관 위치 및 정보 연동 API 앱
         - 도서관 조회
             - 인천시 도서관 오픈 API 사용(https://smart.incheon.go.kr/server/rest/services/Hosted/%EB%8F%84%EC%84%9C%EA%B4%80%EB%B0%8F%EC%84%9C%EC%A0%90%EC%A0%95%EB%B3%B4/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson)
+
+            
         - 도서관 DB연동 정보 저장
+        
+        ![저장화면](https://raw.githubusercontent.com/breadcoffee/basic-wpf-2024/main/images/wpf007.png)
+
         - 도서관 구글맵 연동 위치표시
+
+        ![지도화면](https://raw.githubusercontent.com/breadcoffee/basic-wpf-2024/main/images/wpf008.png)
+
         - 도서관 지역구별 정보검색
+    
+        ![검색화면](https://raw.githubusercontent.com/breadcoffee/basic-wpf-2024/main/images/wpf006.png)
 
-    ![실행화면](https://raw.githubusercontent.com/breadcoffee/basic-wpf-2024/main/images/wpf006.png)
-
-    ![저장화면](https://raw.githubusercontent.com/breadcoffee/basic-wpf-2024/main/images/wpf007.png)
